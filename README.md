@@ -28,3 +28,7 @@ Resources:
                 Resource: '*'
 
 ```
+
+```
+aws cloudformation deploy --stack-name CWA-IAM-Role  --template-file CWA-IAM-Role.yaml --capabilities CAPABILITY_NAMED_IAM --region ap-south-1
+```
